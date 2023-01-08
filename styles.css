@@ -91,5 +91,10 @@ main{
     background-color: #f5e6e67b;
     padding: 1rem;
     border-radius: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem ;
+}
+#tasks .task .content .text{
+    color: azure;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
