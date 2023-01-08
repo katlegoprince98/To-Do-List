@@ -16,5 +16,7 @@ window.addEventListener('load', ()=> {
 
          const list_tas = document.createElement('div');
          list_tas.classList.add("task");
+
+         const task_con = document.createElement('div');
     })
 })
