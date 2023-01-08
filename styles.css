@@ -85,7 +85,7 @@ main{
     margin-bottom: 1rem;
     color: gray;
 }
-#task{
+#tasks .task{
     display: flex;
     justify-content: space-between;
 }
