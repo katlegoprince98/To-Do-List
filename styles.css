@@ -112,6 +112,7 @@ main{
     font-size: 1.5rem;
     font-weight: 300;
     transition: 3s ease;
+    text-transform: uppercase;
    
 }
 .task .actions button:hover{
