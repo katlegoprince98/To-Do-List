@@ -44,4 +44,8 @@ input, button{
     margin-right: 1rem;
     color: rgb(254, 255, 250);
     font-size: 1em;
+
+}
+#task_input::placeholder{
+    color: #f5e6e67b;
 }
