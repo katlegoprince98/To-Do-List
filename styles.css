@@ -107,4 +107,10 @@ main{
 }
 .task .actions button{
   cursor: pointer;
+  margin: 0 0.5rem;
+  color: #f5e6e67b;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: 3s ease;
+   
 }
