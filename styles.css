@@ -27,5 +27,11 @@ header h1{
 }
 #form{
     display: flex;
-    
+
+}
+input, button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;    
 }
