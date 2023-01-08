@@ -88,4 +88,7 @@ main{
 #tasks .task{
     display: flex;
     justify-content: space-between;
+    background-color: #f5e6e67b;
+    padding: 1rem;
+    border-radius: 1rem;
 }
