@@ -1,4 +1,4 @@
-window.addEventListener('loas', ()=> {
+window.addEventListener('load', ()=> {
 
     const form = document.querySelector('form');
     const input = document.querySelector('task_input');
@@ -11,6 +11,9 @@ window.addEventListener('loas', ()=> {
 
          if(!task){
             alert('Please add a task');
+            return;
+         }else{
+            alert('task');
          }
     })
 })
