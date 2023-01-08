@@ -36,3 +36,7 @@ input, button{
     background: none;
     color: #7c7c7c7b    
 }
+#task_input{
+    flex: 1 1 0%;
+    background-color: #7c7c7c7b;
+}
