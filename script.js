@@ -4,7 +4,7 @@ window.addEventListener('load', ()=> {
     const input = document.querySelector('task_input');
     const list_tas = document.querySelector('tasks');
     
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('btn', (e) => {
         e.preventDefault();
 
         const task = input.value;
@@ -12,8 +12,6 @@ window.addEventListener('load', ()=> {
          if(!task){
             alert('Please add a task');
             return;
-         }else{
-            alert('task');
          }
     })
 })
