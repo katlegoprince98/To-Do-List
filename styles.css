@@ -49,3 +49,13 @@ input, button{
 #task_input::placeholder{
     color: #f5e6e67b;
 }
+#btn{
+    color: #f5e6e67b;
+    font-size: 2.5rem;
+    font-weight: 300;
+    transition: 3s ease;
+}
+#btn:hover{
+    color: #5310107b;
+
+}
