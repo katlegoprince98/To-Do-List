@@ -1,10 +1,10 @@
-alert("jvbdjd");
+
 
 window.addEventListener('load', ()=> {
 
-    const form = document.querySelector('form');
-    const input = document.querySelector('task_input');
-    const list_tas = document.querySelector('tasks');
+    const form = document.querySelector("#form");
+    const input = document.querySelector("#task_input");
+    const list_tas = document.querySelector("#list");
     
     form.addEventListener('btn', (e) => {
         e.preventDefault();
@@ -27,5 +27,5 @@ window.addEventListener('load', ()=> {
          list_tas.appendChild(list_tas);
 
 
-    })
-})
+    });
+}); 
