@@ -5,6 +5,12 @@ window.addEventListener('loas', ()=> {
     const list_tas = document.querySelector('tasks');
     
     form.addEventListener('submit', (e) => {
-        
+        e.preventDefault();
+
+        const task = input.value;
+
+         if(!task){
+            alert('Please add a task');
+         }
     })
 })
