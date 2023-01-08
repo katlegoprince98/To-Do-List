@@ -114,3 +114,11 @@ main{
     transition: 3s ease;
    
 }
+.task .actions button:hover{
+    color: #5310107b;
+    opacity: 0.7;
+}
+.task .actions button:active{
+    color: #5310107b;
+    opacity: 0.5;
+}
