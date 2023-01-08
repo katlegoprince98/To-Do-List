@@ -25,3 +25,7 @@ header h1{
     margin-bottom: 1rem;
     color: gray;
 }
+#form{
+    display: flex;
+    
+}
