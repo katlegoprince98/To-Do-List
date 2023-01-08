@@ -97,4 +97,7 @@ main{
     color: azure;
     font-size: 1.5rem;
     font-weight: 300;
+    width: 100%;
+    display: block;
+    transition: 0.3s;
 }
