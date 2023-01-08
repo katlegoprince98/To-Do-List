@@ -101,3 +101,7 @@ main{
     display: block;
     transition: 0.3s;
 }
+#tasks .task .actions{
+    display: flex;
+    margin: 0 -0.5rem;
+}
