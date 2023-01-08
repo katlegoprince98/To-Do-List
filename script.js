@@ -13,5 +13,8 @@ window.addEventListener('load', ()=> {
             alert('Please add a task');
             return;
          }
+
+         const list_tas = document.createElement('div');
+         list_tas.classList.add("task");
     })
 })
